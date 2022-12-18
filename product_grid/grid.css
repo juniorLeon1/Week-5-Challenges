@@ -1,0 +1,32 @@
+.container {
+    text-align: center;
+}
+
+#grid {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.product {
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 , h2 , p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 100px;
+}
