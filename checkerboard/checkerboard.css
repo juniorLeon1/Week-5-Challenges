@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background-color: steelblue;
+}
+
 h1 {
     text-align: center;
     padding: 10px;
@@ -20,22 +24,13 @@ h2 {
 
 /* Checkerboard CSS Start */
 .checkerboard {
-    padding: 7px 7px 0px;
+    padding: 6px 6px 2px;
     display: block;
     margin: auto;
     margin-bottom: 30px;
     width: 828px;
     border: 1px solid black;
-}
-
-.blackstart {
-    height: 107px;
-    width: 828px;
-}
-
-.whitestart {
-    height: 107px;
-    width: 828px;
+    background-color: white;
 }
 
 .black {
